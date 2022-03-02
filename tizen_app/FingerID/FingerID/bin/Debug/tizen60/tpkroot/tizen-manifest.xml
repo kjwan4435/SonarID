@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="org.tizen.example.FingerID" version="1.0.0">
+  <profile name="common" />
+  <ui-application appid="org.tizen.example.FingerID"
+					exec="FingerID.dll"
+					type="dotnet"
+					multiple="false"
+					taskmanage="true"
+					nodisplay="false"
+					launch_mode="single"
+                    api-version="6">
+    <label>FingerID</label>
+    <icon>FingerID.png</icon>
+    <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+  </ui-application>
+
+  <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage.appdata</privilege>
+        <privilege>http://tizen.org/privilege/recorder</privilege>
+        <privilege>http://tizen.org/privilege/volume.set</privilege>
+		<privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/content.write</privilege>
+		<privilege>http://tizen.org/privilege/internet</privilege>
+		<privilege>http://tizen.org/privilege/network.get</privilege>
+		<privilege>http://tizen.org/privilege/network.set</privilege>
+		<privilege>http://tizen.org/privilege/network.profile</privilege>
+		<privilege>http://tizen.org/privilege/filesystem.read</privilege>
+		<privilege>http://tizen.org/privilege/filesystem.write</privilege>
+		<!--<privilege>http://tizen.org/privilege/gestureactivation</privilege>
+		<privilege>http://tizen.org/privilege/gesturegrab</privilege>
+		<privilege>http://tizen.org/privilege/inputgenerator</privilege>-->
+    </privileges>
+	<feature name="http://tizen.org/feature/microphone"/>
+	<feature name="http://tizen.org/feature/storage.external"/>
+	<feature name="https://www.tizen.org/feature/opengles.surfaceless_context"/>
+	<feature name="http://tizen.org/feature/multi_point_touch.pinch_zoom"/>
+	<feature name="http://tizen.org/feature/multi_point_touch.point_count"/>
+	<feature name="http://tizen.org/feature/sensor.gesture_recognition"/>
+</manifest>

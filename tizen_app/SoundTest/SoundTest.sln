@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTest", "SoundTest\SoundTest.csproj", "{BEC91DE1-4D1F-46F5-890F-3F65C7D21BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundTest.Tizen.Wearable", "SoundTest.Tizen.Wearable\SoundTest.Tizen.Wearable.csproj", "{D9FF1AA5-6BC0-47EC-8ABB-1C4DAD1E4AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC91DE1-4D1F-46F5-890F-3F65C7D21BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC91DE1-4D1F-46F5-890F-3F65C7D21BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC91DE1-4D1F-46F5-890F-3F65C7D21BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC91DE1-4D1F-46F5-890F-3F65C7D21BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FF1AA5-6BC0-47EC-8ABB-1C4DAD1E4AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FF1AA5-6BC0-47EC-8ABB-1C4DAD1E4AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FF1AA5-6BC0-47EC-8ABB-1C4DAD1E4AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FF1AA5-6BC0-47EC-8ABB-1C4DAD1E4AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1F348E4-27E6-4D9A-BA1B-0EFCB38C1B65}
+	EndGlobalSection
+EndGlobal

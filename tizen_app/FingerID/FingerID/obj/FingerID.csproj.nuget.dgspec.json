@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj": {}
+  },
+  "projects": {
+    "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj",
+        "projectName": "FingerID",
+        "projectPath": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj",
+        "packagesPath": "/Users/jiwankim/.nuget/packages/",
+        "outputPath": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jiwankim/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "tizen60"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "tizen60": {
+            "targetAlias": "tizen60",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "tizen60": {
+          "targetAlias": "tizen60",
+          "dependencies": {
+            "FftSharp": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[2.7.11, )"
+            },
+            "Tizen.NET": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0.15631, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

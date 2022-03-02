@@ -1,0 +1,9 @@
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/SoundTest.deps.json
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/SoundTest.dll
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/SoundTest.pdb
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.csproj.AssemblyReference.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.AssemblyInfoInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.AssemblyInfo.cs
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.csproj.CoreCompileInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.dll
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/obj/Debug/netstandard2.0/SoundTest.pdb

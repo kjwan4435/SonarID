@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)tizen.net.api6/6.0.0.14995/build/tizen60/Tizen.NET.API6.targets" Condition="Exists('$(NuGetPackageRoot)tizen.net.api6/6.0.0.14995/build/tizen60/Tizen.NET.API6.targets')" />
+    <Import Project="$(NuGetPackageRoot)tizen.net/8.0.0.15631/build/tizen40/Tizen.NET.targets" Condition="Exists('$(NuGetPackageRoot)tizen.net/8.0.0.15631/build/tizen40/Tizen.NET.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp/2.80.2/buildTransitive/tizen40/SkiaSharp.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp/2.80.2/buildTransitive/tizen40/SkiaSharp.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/5.0.0.2083/buildTransitive/Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/5.0.0.2083/buildTransitive/Xamarin.Forms.targets')" />
+  </ImportGroup>
+</Project>

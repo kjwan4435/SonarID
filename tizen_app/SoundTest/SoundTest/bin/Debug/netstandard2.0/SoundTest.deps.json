@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SoundTest/1.0.0": {
+        "dependencies": {
+          "FftSharp": "1.0.8",
+          "NETStandard.Library": "2.0.3",
+          "Tizen.NET": "8.0.0.15631",
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "SoundTest.dll": {}
+        }
+      },
+      "FftSharp/1.0.8": {
+        "runtime": {
+          "lib/netstandard2.0/FftSharp.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        }
+      },
+      "Tizen.NET/8.0.0.15631": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Tizen.NET.API8": "8.0.0.15631"
+        }
+      },
+      "Tizen.NET.API8/8.0.0.15631": {},
+      "Xamarin.Forms/5.0.0.2083": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.716"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.716"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.716"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SoundTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FftSharp/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2BBjc8GeffzIsRRI1UTL0TRVRqXc/Xwb3pqA4vR+PIOwcq5M+5A4Tw2U46IeeqMEr4kv3l35gnWTekq/e+RYAA==",
+      "path": "fftsharp/1.0.8",
+      "hashPath": "fftsharp.1.0.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Tizen.NET/8.0.0.15631": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRQf1/8Io6ZdYUyzsa/JwAxtaRFd2E3BcPM11Wwo0DXGNwxibi7pAnDzwZHoF8Vepgh7ccwboxEZh0vxtC/Wbg==",
+      "path": "tizen.net/8.0.0.15631",
+      "hashPath": "tizen.net.8.0.0.15631.nupkg.sha512"
+    },
+    "Tizen.NET.API8/8.0.0.15631": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFYlBLkUXEp6f+nU6BvLj0r/kmqIsb8nBErvEUCF63NZB3U9rkijrXbZXU8oCKEl5xJ5JZv3atigDEAZhnfZTQ==",
+      "path": "tizen.net.api8/8.0.0.15631",
+      "hashPath": "tizen.net.api8.8.0.0.15631.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2083": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDKdEIq8SA3zP8/qyJZ9isIsP1KRLvhxUohTM4GS4HOQkkK3FARvi/FJv91O4IJ/30ByJg88mBdKuiLMyL9Q+w==",
+      "path": "xamarin.forms/5.0.0.2083",
+      "hashPath": "xamarin.forms.5.0.0.2083.nupkg.sha512"
+    }
+  }
+}

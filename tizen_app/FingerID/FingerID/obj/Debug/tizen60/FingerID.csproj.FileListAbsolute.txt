@@ -1,0 +1,9 @@
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.deps.json
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.dll
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.pdb
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.csproj.AssemblyReference.cache
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.AssemblyInfoInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.AssemblyInfo.cs
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.csproj.CoreCompileInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.dll
+/Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.pdb

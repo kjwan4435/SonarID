@@ -1,0 +1,12 @@
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/bin/Debug/tizen60/SoundTest.Tizen.Wearable.deps.json
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/bin/Debug/tizen60/SoundTest.Tizen.Wearable.dll
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/bin/Debug/tizen60/SoundTest.Tizen.Wearable.pdb
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/bin/Debug/tizen60/SoundTest.dll
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/bin/Debug/tizen60/SoundTest.pdb
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.csproj.AssemblyReference.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.AssemblyInfoInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.AssemblyInfo.cs
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.csproj.CoreCompileInputs.cache
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.csproj.CopyComplete
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.dll
+/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest.Tizen.Wearable/obj/Debug/tizen60/SoundTest.Tizen.Wearable.pdb

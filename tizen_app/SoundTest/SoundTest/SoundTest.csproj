@@ -1,0 +1,22 @@
+﻿<Project Sdk="Tizen.NET.Sdk/1.1.5">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <!-- Include Nuget Package for Xamarin building -->
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Xamarin.Forms" />
+    <None Remove="Tizen.NET" />
+    <None Remove="FFTW.NET" />
+    <None Remove="MathNet.Numerics" />
+    <None Remove="FftSharp" />
+    <None Remove="MR.Gestures" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+    <PackageReference Include="Tizen.NET" Version="8.0.0.15631" />
+    <PackageReference Include="FftSharp" Version="1.0.8" />
+  </ItemGroup>
+</Project>

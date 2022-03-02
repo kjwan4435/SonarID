@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F20FF66B-3543-4EDC-9FF5-8229B7BA71B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FingerID/TcpStreamer.cs">
+    <Files>
+      <File FileName="FingerID/FingerID.cs" Line="20" Column="1" />
+      <File FileName="FingerID/tizen-manifest.xml" />
+      <File FileName="FingerID/Global.cs" />
+      <File FileName="FingerID/soundGenerator.cs" />
+      <File FileName="FingerID/Trial.cs" />
+      <File FileName="FingerID/TcpStreamer.cs" Line="114" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FingerID" expanded="True">
+            <Node name="FingerID" expanded="True">
+              <Node name="TcpStreamer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FingerID PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
