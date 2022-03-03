@@ -8,35 +8,19 @@ from numpy import correlate, array, zeros, roll, exp, pi, arange, fft, sin, cos,
 # For recording and play
 import wave
 import sys
-# import os
 
 # For analyzing sound signal
 import math
-# import numpy as np
 import pandas as pd
-import seaborn as sns
+# import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
 from pydub import AudioSegment
 from scipy import signal
-# from scipy.io import wavfile
 import scipy.io.wavfile as wav
-# from scipy.fftpack import fft
 import librosa
 import librosa.display
-
-import tensorflow as tf
-import keras
-from keras.models import model_from_json
-
-json_file = open("model2.json", "r")
-loaded_model_json = json_file.read()
-json_file.close()
-loaded_model = model_from_json(loaded_model_json)
-loaded_model.load_weights("model2.h5")
-print("Loaded model from disk")
-
 
 fileFreq = 48000
 sub_id = "9999"
@@ -105,23 +89,20 @@ def chunkBySize(lst, n, d):
             yield each_chunk
 
 
+# Generate sonar fingerprint using sound
 def plotACSpect(fnIn):
     samplingFrequency, signalData = wav.read(fnIn)
 
     zcLen = 1024
-    chunkedData = list(chunkBySize(signalData, zcLen, 1))
-    print(len(chunkedData))
     chunkedData = list(chunkBySize(signalData, zcLen, 2))
-    print(len(chunkedData))
-    signalParts = chunkedData[-61:-1]
-    print(signalParts[0])
+    signalParts = chunkedData[-61:-1]                       # Retain nSeqs
+
     # how much of the ZC signal do we want to plot? Each step is 0.72 cm.
-    retain = 300  # try 300, which gives a coverage of ~2.1 meters.
-    data = np.zeros([len(signalParts), retain])
+    retain = 300                                            # try 300, which gives a coverage of ~2.1 meters.
+    data = np.zeros([len(signalParts), retain])             # Retain nSamples
     # get the biggest peak in the first chunk for an offset
     deMod = demodzc(signalParts[0])                         # demodulate
-    print(deMod[0])
-    print(zcseqUpscaled[0])
+
     autoC = np.correlate(zcseqUpscaled, deMod, mode="same")
     autoC = np.absolute(autoC)                              # get abs value
     autoC = (autoC - np.min(autoC))/np.ptp(autoC)
@@ -131,7 +112,6 @@ def plotACSpect(fnIn):
     topPeak = allPeaks[np.sort(np.argpartition(
         props['peak_heights'], -NPeaks)[-NPeaks:])][0]   # the top NPeaks peaks
     offset = 512-topPeak
-    # end peak
 
     for i in range(0, len(signalParts)):
         deMod = demodzc(signalParts[i])                         # demodulate
@@ -151,7 +131,6 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
     def handle(self):  # self.request is the TCP socket connected to the client
         global sub_id
         global timestamp
-        global predicted
 
         total = 0
         chunks = []
@@ -162,8 +141,6 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
             total += len(self.data)
             if count == 1:
                 headerPacket = self.data[0:10].decode("utf-8")
-                if headerPacket[0:5] == "RECEV":
-                    self.request.send(predicted.encode())
             if not self.data:
                 count = 0
                 break
@@ -173,10 +150,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         fullPacket = b''.join(chunks)
         header = fullPacket[0:10].decode("utf-8")
         print(header)
-        # print("Recd", total, len(chunks), len(fullPacket),
-        #       "bytes from", self.client_address[0])
-
-        # print(header)
+        print("Recd", total, len(chunks), len(fullPacket), "bytes from", self.client_address[0])
 
         if (header[0:5] == "SUBID"):
             sub_id = header[6:10]
@@ -218,17 +192,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
                 wav.write('trial' + id + '.wav', int(fileFreq), soundFile)
 
-                image = plotACSpect('trial' + id + '.wav')
-                predictedLabel = loaded_model.predict(
-                    [image.reshape(1, 60, 300, 1)])
-                print(predictedLabel[0])
-                print(predictedLabel[0][0])
-                if predictedLabel[0][0] >= 0.5:
-                    predicted = "THUMB"
-                elif predictedLabel[0][1] >= 0.5:
-                    predicted = "INDEX"
-                elif predictedLabel[0][2] >= 0.5:
-                    predicted = "MIDDLE"
+                # image = plotACSpect('trial' + id + '.wav')
 
         # elif (header[0:5] == "RECEV"):
         #     self.request.send("HI".encode())

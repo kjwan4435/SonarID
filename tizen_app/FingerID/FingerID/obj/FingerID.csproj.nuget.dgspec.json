@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj": {}
+    "/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/FingerID.csproj": {}
   },
   "projects": {
-    "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj": {
+    "/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/FingerID.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj",
+        "projectUniqueName": "/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/FingerID.csproj",
         "projectName": "FingerID",
-        "projectPath": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/FingerID.csproj",
-        "packagesPath": "/Users/jiwankim/.nuget/packages/",
-        "outputPath": "/Users/jiwankim/Desktop/research/tizen_app/FingerID/FingerID/obj/",
+        "projectPath": "/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/FingerID.csproj",
+        "packagesPath": "/Users/interactions/.nuget/packages/",
+        "outputPath": "/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jiwankim/.config/NuGet/NuGet.Config"
+          "/Users/interactions/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "tizen60"
@@ -54,7 +54,7 @@
               "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

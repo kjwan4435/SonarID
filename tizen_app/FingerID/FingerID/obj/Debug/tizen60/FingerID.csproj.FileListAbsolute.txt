@@ -7,3 +7,13 @@
 /Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.csproj.CoreCompileInputs.cache
 /Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.dll
 /Users/Jiwan/Desktop/research/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.pdb
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.dll
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.pdb
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.deps.json
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.dll
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/bin/Debug/tizen60/FingerID.pdb
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.csproj.AssemblyReference.cache
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.GeneratedMSBuildEditorConfig.editorconfig
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.AssemblyInfoInputs.cache
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.AssemblyInfo.cs
+/Users/interactions/Documents/GitHub/SonarID/tizen_app/FingerID/FingerID/obj/Debug/tizen60/FingerID.csproj.CoreCompileInputs.cache

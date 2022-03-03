@@ -28,7 +28,6 @@ namespace FingerID
         // On TRIAL PAGE
         string ImageFilePath = "/opt/usr/apps/org.tizen.example.FingerID/shared/res/";
         public Button Stimuli;
-        public List<Button> pixels;
 
         public Button TrialInitButton;      // TRIAL INIT PAGE
         public TextLabel TrialWaitLabel;    // TRIAL WAIT PAGE
@@ -42,7 +41,7 @@ namespace FingerID
         int numPostures = 1;
         int numTargets = 7;                 // total number of targets
         int numFingers = 3;                 // number of fingers we will consider
-        int numRepsBlock = 1;               // number of reps in each block
+        int numRepsBlock = 5;               // number of reps in each block
         int numBlocks = 4;                  // number of blocks in the study
 
         // SoundPlayer
@@ -54,9 +53,9 @@ namespace FingerID
         // TcpStreamer
         TcpStreamer tcpStreamer;
 
-        int TIME_FIX = 500;  // fix time
-        int TIME_TRIAL = 4000; // timeout time
-        int TIME_PAUSE = 500;
+        int TIME_FIX = 500;                 // fix time
+        int TIME_TRIAL = 3000;              // timeout time
+        int TIME_PAUSE = 500;               // pause time
 
         void Initialize()
         {
@@ -134,7 +133,6 @@ namespace FingerID
 
         Position getTargetPoint(int targetNum)
         {
-            //float diagLength = 84;
             float diagLength7 = 80;
             switch (targetNum)
             {
@@ -145,15 +143,6 @@ namespace FingerID
                 case 4: return new Position(60, 120 + diagLength7, 1);
                 case 5: return new Position(20, 120, 1);
                 case 6: return new Position(60, 120 - diagLength7, 1);
-                //case 0: return new Position(120, 120, 1);
-                //case 1: return new Position(120, 0, 1);
-                //case 2: return new Position(120 + diagLength, 120 - diagLength, 1);
-                //case 3: return new Position(240, 120, 1);
-                //case 4: return new Position(120 + diagLength, 120 + diagLength, 1);
-                //case 5: return new Position(120, 240, 1);
-                //case 6: return new Position(120 - diagLength, 120 + diagLength, 1);
-                //case 7: return new Position(0, 120, 1);
-                //case 8: return new Position(120 - diagLength, 120 - diagLength, 1);
             }
             return new Position(999, 999, 1);
         }
@@ -257,8 +246,8 @@ namespace FingerID
             player.stop();
             trials.trials[0].endTime = DateTime.UtcNow.Ticks;
             tcpStreamer.transferData();
-            tcpStreamer.receiveData();
-            TrialEndLabel.Text = Global.CurrentFinger;
+            //tcpStreamer.receiveData();
+            //TrialEndLabel.Text = Global.CurrentFinger;
             TrialEndPage();
             Global.logMessage(trials.trials[0].correctDown + " | t: " + (trials.trials[0].touchDownTime - trials.trials[0].startTime) / 10000);
             tcpStreamer.sendBlockMsg(trials.trials[0]);
@@ -429,7 +418,8 @@ namespace FingerID
 
             TrialEndLabel = new TextLabel
             {
-                Text = Global.CurrentFinger,
+                //Text = Global.CurrentFinger,
+                Text = "Saving...",
                 PointSize = 8.0f,
                 TextColor = Color.White,
                 HorizontalAlignment = HorizontalAlignment.Center,
