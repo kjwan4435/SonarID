@@ -15,4 +15,4 @@ $ python3 tcpserver_tizen.py
 
 ### 4. Run application on the Smartwatch
 - Type IP address of TCP server and subject number
-- Run Experiment
+- Run experiment
