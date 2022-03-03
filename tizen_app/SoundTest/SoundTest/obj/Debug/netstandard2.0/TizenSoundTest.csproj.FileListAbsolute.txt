@@ -1,8 +1,0 @@
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/SoundTest.dll
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/SoundTest.pdb
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/FftSharp.dll
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/Xamarin.Forms.Core.dll
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/Xamarin.Forms.Platform.dll
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/bin/Xamarin.Forms.Xaml.dll
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/tpkroot/SoundTest.deps.json
-/Users/Jiwan/Desktop/research/tizen_app/SoundTest/SoundTest/bin/Debug/netstandard2.0/-.tpk
